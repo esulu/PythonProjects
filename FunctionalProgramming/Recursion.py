@@ -1,6 +1,6 @@
 # Python recursion test program
 
-"""
+
 def factorial(x):
     if x < 0:
         raise ValueError('Unable to perform calculation')
@@ -26,4 +26,4 @@ def is_odd(x):
 
 print(is_odd(17))
 print(is_even(25))
-"""
+
