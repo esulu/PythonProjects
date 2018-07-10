@@ -11,7 +11,7 @@ repeat: repeats an object, either infinitely or a specific number of times
 
 takewhile: takes items from an iterable while a predicate function (boolean) remains true
 chain: combines several iterables into one long one
-accumulate: returns a running total of values in an iterable
+accumulate: returns a running total of values in an iterable (sum of all previous values)
 
 product: all possible combinations between multiple sets of data
 permutations: all possible combination of a single set of data
