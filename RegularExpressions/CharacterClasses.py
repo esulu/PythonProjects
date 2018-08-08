@@ -45,3 +45,14 @@ if re.search(pattern, "1ab"):
 # if a ^ is placed at the start of a character class it becomes inverted
 # This causes it to match any character other than the ones included
 
+pattern = r"[^A-Z]"
+
+if re.search(pattern, "this is all quiet"):
+    print("Match 1")
+
+if re.search(pattern, "AbCdEfG123"):
+    print("Match 2")
+
+if re.search(pattern, "THISISALLSHOUTING"):
+    print("Match 3")
+
