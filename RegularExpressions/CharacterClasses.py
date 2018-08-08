@@ -27,3 +27,17 @@ if re.search(pattern, "rhythm myths"):
 # [0-9] matches any digit
 # Multiple ranges can be included in one class. For example, [A-Za-z] matches a letter
 # of any case
+
+pattern = r"[A-Z][A-Z][0-9]"
+
+# The pattern above matches strings that contain two alphabetic uppercase letters
+# followed by a digit
+
+if re.search(pattern, "LS8"):
+    print("Match 1")
+
+if re.search(pattern, "E3"):
+    print("Match 2")
+
+if re.search(pattern, "1ab"):
+    print("Match 3")
