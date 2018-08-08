@@ -41,3 +41,7 @@ if re.search(pattern, "E3"):
 
 if re.search(pattern, "1ab"):
     print("Match 3")
+    
+# if a ^ is placed at the start of a character class it becomes inverted
+# This causes it to match any character other than the ones included
+
