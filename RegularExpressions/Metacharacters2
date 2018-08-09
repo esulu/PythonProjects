@@ -16,3 +16,16 @@ if re.match(pattern, "eggsspamspamegg"):
 
 if re.match(pattern, "spam"):
     print("Match 3")
+
+# + : one or more repetitions
+
+pattern = r"g+"
+
+if re.match(pattern, "g"):
+    print("Match 1")
+
+if re.match(pattern, "ggg"):
+    print("Match 2")
+
+if re.match(pattern, "abc"):
+    print("Match 3")
