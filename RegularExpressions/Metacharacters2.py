@@ -29,3 +29,20 @@ if re.match(pattern, "ggg"):
 
 if re.match(pattern, "abc"):
     print("Match 3")
+
+# ? : zero or one repetition
+
+pattern = r"ice(-)?cream"
+
+if re.match(pattern, "icecream"):
+    print("Match 1")
+
+if re.match(pattern, "ice-cream"):
+    print("Match 2")
+
+if re.match(pattern, "sausages"):
+    print("Match 3")
+
+if re.match(pattern, "ice--ice"):
+    print("Match 4")
+
