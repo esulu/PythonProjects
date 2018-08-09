@@ -1,0 +1,5 @@
+# More metacharacters in Python
+
+# Some more metacharacters:
+# * : zero or more repetitions of the previous thing
+# The "previous thing" can be a single character, a class, or a group of characters in ()
