@@ -56,3 +56,4 @@ if re.search(pattern, "AbCdEfG123"):
 if re.search(pattern, "THISISALLSHOUTING"):
     print("Match 3")
 
+# Rest of code will be added asap
