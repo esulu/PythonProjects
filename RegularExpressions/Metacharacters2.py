@@ -46,3 +46,6 @@ if re.match(pattern, "sausages"):
 if re.match(pattern, "ice--ice"):
     print("Match 4")
 
+# {} : used to represent the number of repetitions between two numbers
+# {x, y} means between x and y repetitions
+# Hence {0, 1} is the same as ?
