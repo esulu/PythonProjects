@@ -35,3 +35,12 @@ if match:
     print(match.groups())
 
 # The example above also shows that groups can be nested
+
+# There are several kinds of special groups
+
+# named groups : syntax (?P<name>...) | name = name of the group | ... = content
+# Behave the same as normal groups, except they can be accessed by <group(name)> in addition to its number
+
+# non-capturing groups : syntax (?:...)
+# Not accessible by the <group> method, so they can be added to an existing regular expression  without
+# breaking the numbering
