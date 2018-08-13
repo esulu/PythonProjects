@@ -23,3 +23,15 @@ if re.match(pattern, "spam"):
 # group(0) / group() returns the whole match
 # group(n) where n is larger than 0, returns the nth group from the left
 # groups() returns all groups up from 1
+
+pattern = r"a(bc)(de)(f(g)h)i"
+
+match = re.match(pattern, "abcdefghijklmnop")
+
+if match:
+    print(match.group())
+    print(match.group(1))
+    print(match.group(2))
+    print(match.groups())
+
+# The example above also shows that groups can be nested
