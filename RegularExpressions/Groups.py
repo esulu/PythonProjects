@@ -44,3 +44,11 @@ if match:
 # non-capturing groups : syntax (?:...)
 # Not accessible by the <group> method, so they can be added to an existing regular expression  without
 # breaking the numbering
+
+pattern = r"(?P<first>abc)(?:def)(ghi)"
+
+match = re.match(pattern, "abcdefghi")
+
+if match:
+    print(match.group("first"))
+    print(match.groups())
