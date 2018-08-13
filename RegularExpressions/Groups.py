@@ -14,3 +14,7 @@ if re.match(pattern, "eggspamspamspamegg"):
 
 if re.match(pattern, "spam"):
     print("Match 3")
+
+# (spam) represents a  group in the example pattern shown above
+
+# Example: '([^aeiou][aeiou][^aeiou])+' would match one or more repetitions of a non-vowel, a vowel and a non-vowel
