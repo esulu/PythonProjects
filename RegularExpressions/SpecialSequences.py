@@ -20,3 +20,6 @@ if match:
 match = re.match(pattern, "abc def")
 if match:
     print("Match 3")
+
+# Note: <(.+) /1> != <(.+)(.+)> because /1 refers to the first group's subexpression, which is the matched expression
+# itself, and not the regex pattern
