@@ -30,3 +30,17 @@ if match:
 # ASCII equivalent: [0-9], [\t\n\r\f\v], and [a-zA-Z0-9_]
 # The upper case version of the special sequences mean the opposite of the lower case versions
 # Ex: /D matches anything that isn't a digit
+
+pattern = r"(\D+\d)"
+
+match = re.match(pattern, "Hi 2187!")
+if match:
+    print("Match 1")
+
+match = re.match(pattern, "1, 23, 456!")
+if match:
+    print("Match 2")
+
+match = re.match(pattern, "! $?")
+if match:
+    print("Match 3")
