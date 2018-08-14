@@ -44,3 +44,10 @@ if match:
 match = re.match(pattern, "! $?")
 if match:
     print("Match 3")
+
+# (\D+\d) matches one or more non-digits followed by a digit
+
+# Additional special sequences are \A, \Z, and \b
+# \A and \Z match the beginning and the end of a string respectively
+# \b matches the empty string between \w and \W characters, or \w characters and the beginning or end of the string
+# \B matches the empty string anywhere else
