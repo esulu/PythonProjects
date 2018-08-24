@@ -1,0 +1,3 @@
+# Demo of the zen of python and its meaning
+
+import this
