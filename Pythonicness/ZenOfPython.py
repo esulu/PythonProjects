@@ -28,3 +28,6 @@ Namespaces are one honking great idea -- let's do more of those!
 # Explicit is better than implicit:
 # It is best to spell out exactly what your code is doing. This is why adding a numeric string to an integer requires
 # explicit conversion, rather than having it happen behind the scenes
+
+# Flat is better than nested:
+# Heavily nested structures (lists of lists, of lists, and on and on…) should be avoided.
