@@ -31,3 +31,6 @@ Namespaces are one honking great idea -- let's do more of those!
 
 # Flat is better than nested:
 # Heavily nested structures (lists of lists, of lists, and on and on…) should be avoided.
+
+# Errors should never pass silently:
+# In general, when an error occurs, you should output some sort of error message, rather than ignoring it.
