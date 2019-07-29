@@ -34,6 +34,6 @@ class Pizza:
             return True
 
 
-ingredients = ["cheese", "onions", "peperoni"]
+ingredients = ["cheese", "onions", "pepperoni"]
 if all(Pizza.valid_topping(i) for i in ingredients):
     pizza = Pizza(ingredients)
